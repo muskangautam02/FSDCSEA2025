@@ -1,0 +1,47 @@
+/* body{
+    background-color: lightblue;
+} */
+
+.container{
+    display: grid;
+    /* grid-template-columns: 200px 300px 400px 300px; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 200px 500px 200px;
+    border: 1px solid rgb(209, 6, 6);
+   
+}
+
+.child1{
+  border: 1px dotted red;
+  height: 300px;
+  width: 300px; 
+  background-color: lightseagreen;
+
+}
+
+.child2{
+      border: 1px dotted greenyellow;
+  height: 300px;
+  width: 300px;
+    background-color: lightcoral;
+
+
+}
+
+.child3{
+
+      border: 1px dotted pink;
+  height: 300px;
+  width: 300px;
+    background-color: rgb(215, 215, 49);
+}
+
+.child4{
+
+      border: 1px dotted salmon;
+  height: 300px;
+  width: 300px;
+      background-color: lightgoldenrodyellow;
+  
+
+}
