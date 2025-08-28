@@ -1,0 +1,35 @@
+/* body {
+    background-color: lightblue;
+}
+    */
+
+   /* h1, h3,h2{
+        background-color: brown;
+        color: white;
+    }
+        */
+
+        /* h1{
+            background-color: blueviolet;
+        }
+            heading {
+        font family : 'seorge UI', Tahoma, Geneva, Verdana, sans-serif;
+        color : blue;
+    } */
+
+    /* div~p{
+      background-color: brown; 
+      color: white;
+        
+    } */
+
+    p:nth-child(2){
+        background-color: grey; 
+        color: white;
+    }
+
+    p:nth-of-type(2){
+       background-color: aqua  ;
+       font-size: xx-large  ;
+    }
+
