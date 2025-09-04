@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+  padding: 20px;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  border-radius: 4px;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.item {
+  text-align: left;
+}
+
+.item img {
+  width: 100%;
+  border-radius: 3px;
+}
+
+.item p {
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.explore {
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #0073e6;
+  text-decoration: none;
+}
